@@ -1,0 +1,165 @@
+.mainDiv {
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/BgImage.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.monkeyDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10em;
+    z-index: 1;
+}
+
+.monkey {
+    Width: 260px;
+    Height: 325px;
+    Radius: 69px;
+    background-image: url('../assets/Rectangle 160.png');
+    background-size: 100%;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monkey1 {
+    Width: 260px;
+    Height: 325px;
+    Radius: 69px;
+    background-image: url('../assets/Rectangle 160.png');
+    background-size: 100%;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monkey2 {
+    Width: 260px;
+    Height: 325px;
+    Radius: 69px;
+    background-image: url('../assets/Rectangle 160.png');
+    background-size: 100%;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bgImage {
+    
+    width: 210px;
+    height: 250px;
+    opacity: 0px;
+    background-image: url('../assets/AppleBG.png');
+    background-size:contain;
+}
+.bgImage1 {
+    position: absolute;
+    width: 210px;
+    height: 250px;
+    right: 73%;
+    margin-top: -6em;
+    opacity: 0px;
+    background-image: url('../assets/Apple1.png');
+}
+.bgImageM2{
+    width: 210px;
+    height: 250px;
+    opacity: 0px;
+    background-image: url('../assets/blueCardH.png');
+    background-size:contain;
+}
+.bgImage2 {
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    margin-right: 80%;
+    margin-top: 12em;
+    background-image: url('../assets/01.png');
+    background-size: cover;
+}
+.bgImage3{
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    margin-right: 13.5%;
+    margin-top: 12em;
+    background-image: url('../assets/02BG.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.bgImage7{
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    margin-left: 53.1%;
+    margin-top: 24em;
+    background-image: url('../assets/Rectangle3.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.content{
+    width: 70%;
+    margin-left: 30%;
+}
+
+.homeNext {
+    border: none;
+    position: absolute;
+    Width: 215px;
+    Height: 75px;
+    margin-top: 37em;
+    left: 83%;
+    border-radius: 25px;
+    background-image: url('../assets/YesButton.png');
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.back {
+    border: none;
+    position: absolute;
+    Width: 110px;
+    Height: 100px;
+    margin-top: 1em;
+    right: 90%;
+    border-radius: 40px;
+    background-image: url('../assets/back.png');
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.bgImage5 {
+    width: 250px;
+    height: 250px;
+    opacity: 0px;
+    background-image: url('../assets/Cards2.png');
+    background-size:contain;
+}
+.vectorLong{
+    position: absolute;
+    margin-top: 13em;
+}

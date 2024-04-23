@@ -1,0 +1,68 @@
+.mainDiv {
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/BgImage.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.monkey {
+    margin-top: 12em;
+    width: 33%;
+    height: 70vh;
+    background-image: url('../assets/HappyMon.png');
+    background-size: 100%;
+    background-position: left;
+}
+
+.homeNext {
+    border: none;
+    position: absolute;
+    Width: 215px;
+    Height: 75px;
+    margin-top: 37em;
+    left: 83%;
+    border-radius: 25px;
+    background-image: url('../assets/YesButton.png');
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+.back{
+    border: none;
+    position: absolute;
+    Width: 110px;
+    Height: 100px;
+    margin-top: 1em;
+    right: 90%;
+    border-radius: 40px;
+    background-image: url('../assets/back.png');
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+.homeCloud{
+    position: absolute;
+    Width: 30%;
+    Height: 180px;
+    margin-top: 7em;
+    left: 48%;
+    border-radius: 25px;
+    background-image: url('../assets/cloud.png');
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
